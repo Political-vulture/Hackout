@@ -1,0 +1,85 @@
+body {
+  background-color: #212121;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #212121;
+  height: 70px;
+  align-items: center;
+  color: #14ffec;
+  position: sticky;
+  top: 0;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 60px;
+  font-weight: 700;
+}
+li {
+  padding: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+#search {
+  font-family: "Open Sans", sans-serif;
+  margin-right: 80px;
+  font-size: 25px;
+  font-weight: 400;
+}
+#search :hover {
+  font-size: 30px;
+}
+#logo {
+  height: 50px;
+  width: 70px;
+  margin-left: 30px;
+}
+.imager {
+  background-repeat: no-repeat;
+  background-image: url("pics/aslilund.png");
+  height: 890px;
+  margin-top: 2px;
+  background-image: cover;
+  background-size: 1900px 890px;
+}
+#death {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#watch {
+  border-radius: 10px;
+  border: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 30px;
+  width: 80px;
+  margin-left: 1300px;
+  width: 250px;
+  height: 80px;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-weight: 500;
+}
+#title {
+  font-size: 40px;
+  color: white;
+  font-weight: 1200;
+  margin-left: 1160px;
+  margin-bottom: 15px;
+}
+.gay {
+  margin-left: 1000px;
+}
+#content {
+  font-size: 20px;
+  color: white;
+}
