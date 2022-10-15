@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <style>
+    #header {
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        height: 70px;
+        align-items: center;
+        color: #e8f5f5;
+        position: sticky;
+        top: 0;
+        font-family: 'Prompt', sans-serif;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        margin-right: 30px;
+        font-family: 'Prompt', sans-serif;
+      }
+      h2 {
+        font-family: 'Prompt', sans-serif;
+        margin-left: 60px;
+        font-weight: 700;
+      }
+      li {
+        color: #c2f0ec;
+        padding: 20px;
+        font-weight: 300;
+        font-size: 22px;
+        font-family: 'Prompt', sans-serif;        transition: font-size 1s;
+      }
+      li:hover{
+        color: aqua;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .box {
+        position: relative;
+      }
+      
+      .input {
+        padding: 8px;
+        width: 60px;
+        height: 60px;
+        background: none;
+        border: 4px solid #14ffec;
+        border-radius: 50px;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+        font-size: 26px;
+        color: white;
+        outline: none;
+        transition: 0.5s;
+      }
+      .box:hover input {
+        width: 350px;
+        background: #3b3640;
+        border-radius: 10px;
+      }
+      .box i {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translate(-50%, -50%);
+        font-size: 26px;
+        color: #ffd52d;
+        transition: 0.2s;
+      }
+      .box:hover i {
+        opacity: 0;
+        z-index: -1;
+      }
+      
+      #logo {
+        height: 50px;
+        width: 190px;
+        margin-left: 30px;
+      }
+      .textt{
+        font-size: 40px;
+        font-family: 'Prompt', sans-serif;  
+        margin-left: 50px;
+      }
+      .ttt{
+        font-size: 30px;
+        color: aqua;
+        font-family: 'Prompt', sans-serif; 
+        margin-left: 14px; 
+      }
+      .second{
+        margin-top: 120px;
+        font-family: 'Prompt', sans-serif;  
+        font-size: 50px;
+        color: #14ffec;
+        margin-left: 14px;
+
+      }
+      .btn{
+        border-radius: 40px;
+        border-color: #3fa9a9;
+        border-width: 2px;
+        background-color:rgba(41, 174, 211, 0.098) ;
+        color: white;
+        border-radius: 17px;
+        border: solid;
+        
+        height: 50px;
+        width: 140px;
+        padding: 5px;
+        margin-left: 14px;
+      }
+      .btn:hover{
+        border-color: #3fa9a9;
+        cursor: pointer;
+      }
+      .search_result{
+        display: flex;
+        flex-direction: column;
+        margin-left: 14px;
+        box-sizing: border-box;
+        height: 170px;
+width: 600px;
+background-color: rgba(0, 255, 255, 0.13);
+      }
+      .bichu
+      {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; 
+        margin-left: 20%;  
+        
+      }
+      </style>
+</head>
+<body style="background:url(https://animeez.live/images/bg.png); backdrop-filter: blur(4px); min-width: 100vw; min-height: 100vh; margin:0;">
+    <div id="header">
+        <img id="logo" src="aniquanchi.png" alt="" />
+        <nav id="navbar">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Anime</a></li>
+            <li><a href="">Recomm</a></li>
+            <li><a href="">Genre</a></li>
+            <li><a href="">Best</a></li>
+          </ul>
+        </nav>
+        <div class="box">
+          <form name="search">
+              <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+          </form>
+          <i class="fas fa-search"></i>
+      
+      </div>
+    </div>
+    <!-- <div class="text">
+        <div style="color:aqua ; "><p class="textt">Aniquanchi</p></div> -->
+
+        <!-- <div class="second" >Watch anime series and movies <div style="display: flex; flex-direction: column;"><span class="ttt">  Without Ads</span></div></div>
+        <div > <button class="btn">Watch Now</button></div> -->
+        <!-- <p class="ttt">Search Results:</p> -->
+        <div><p style="font-size: 30px; color: rgb(139, 225, 225);  ">Anime Name</p></div>
+        <div class = "bichu">
+        <video 
+        src="https://res.cloudinary.com/codelife/video/upload/v1637805738/intro_l5ul1k.mp4" controls autoplay loop muted width="800px" height="800px" ></video>
+    </div>
+    
+</body>
+</html>
