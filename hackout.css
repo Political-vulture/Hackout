@@ -1,10 +1,10 @@
 body {
-  background-color: #212121;
+  background-color: black;
 }
 #header {
   display: flex;
   justify-content: space-between;
-  background-color: #212121;
+  background-color: black;
   height: 70px;
   align-items: center;
   color: #14ffec;
@@ -14,6 +14,7 @@ body {
 ul {
   list-style-type: none;
   display: flex;
+  margin-right: 30px;
 }
 h2 {
   font-family: "Open Sans", sans-serif;
@@ -21,28 +22,62 @@ h2 {
   font-weight: 700;
 }
 li {
+  color: #14ffec;
   padding: 20px;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Open Sans", sans-serif;
+  transition: font-size 1s;
 }
-#search {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.box {
+  position: relative;
+}
+
+.input {
+  padding: 8px;
+  width: 60px;
+  height: 60px;
+  background: none;
+  border: 4px solid #14ffec;
+  border-radius: 50px;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  margin-right: 80px;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 26px;
+  color: white;
+  outline: none;
+  transition: 0.5s;
 }
-#search :hover {
-  font-size: 30px;
+.box:hover input {
+  width: 350px;
+  background: #3b3640;
+  border-radius: 10px;
 }
+.box i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: #ffd52d;
+  transition: 0.2s;
+}
+.box:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+
 #logo {
   height: 50px;
-  width: 70px;
+  width: 190px;
   margin-left: 30px;
 }
 .imager {
   background-repeat: no-repeat;
-  background-image: url("pics/aslilund.png");
+  background-image: url("../pics/aslilund.png");
   height: 890px;
   margin-top: 2px;
   background-image: cover;
@@ -82,4 +117,12 @@ li {
 #content {
   font-size: 20px;
   color: white;
+}
+li :hover {
+  cursor: pointer;
+  /* font-size: 25px; */
+  color: goldenrod;
+}
+#watch :hover {
+  background-color: red;
 }
