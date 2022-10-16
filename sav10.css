@@ -1,0 +1,78 @@
+.bg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    filter: brightness(50%);
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    /* filter: blur(5px);
+    -webkit-filter: blur(5px); */
+  }
+  body{
+    background-image: url('https://images7.alphacoders.com/402/402897.jpg');
+    filter: brightness(70%);
+  }
+  header {
+    color: #f0d5a8;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+    border-bottom: 3px silver solid;
+  }
+  
+  ol {
+    counter-reset: li;
+    list-style: none;
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+  }
+  
+  ol a {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 0.4em 0.4em 0.4em 2em;
+    margin: 0.5em 0;
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 60%;
+    height: 40px;
+    background: rgba(244, 201, 156, 0.5);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 0.3em;
+    transition: 0.3s ease-out;
+  }
+  
+  ol a:hover {
+    background: #e9e4e0;
+    color: antiquewhite;
+  }
+  ol a:hover:before {
+    transform: rotate(360deg);
+  }
+  ol a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #a9996e;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: 0.3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all 0.3s ease-out;
+  }
