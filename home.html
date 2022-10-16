@@ -11,6 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <script defer src="search.js"></script>
     <style>
     #header {
         display: flex;
@@ -141,8 +142,8 @@
           </ul>
         </nav>
         <div class="box">
-          <form name="search">
-              <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+          <form name="search" onsubmit="return searchFunc();">
+              <input type="text" class="input" id="gay" name="txt" onmouseout="this.value = ''; this.blur();">
           </form>
           <i class="fas fa-search"></i>
       
@@ -152,7 +153,7 @@
         <div style="color:aqua ; "><p class="textt">Aniquanchi</p></div> -->
 
         <div class="second" >Watch anime series and movies <div style="display: flex; flex-direction: column;"><span class="ttt">  Without Ads</span></div></div>
-        <div > <button class="btn">Watch Now</button></div>
+        <div > <button class="btn" onclick="location.href='hackout.html'">Watch Now</button></div>
     </div>
 </body>
 </html>

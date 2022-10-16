@@ -54,3 +54,4 @@ fetch(`https://gogoanime.herokuapp.com/anime-details/${animeid}`)
         genre.innerHTML = json["releasedDate"];
     });
 
+

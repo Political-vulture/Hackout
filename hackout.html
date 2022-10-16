@@ -7,14 +7,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>the hello</title>
+    <title>Aniquanchi</title>
+    <script defer src="search.js"></script>
     <link rel="stylesheet" href="hackout.css".css">
     
 </head>
 <body class="body">
 
     <header id="header">
-        <img id="logo" src="name.png" alt="" />
+        <img id="logo" src="aniquanchi.png" alt="" />
         <nav id="navbar">
           <ul>
             <li><a href="home.html">Home</a></li>
@@ -25,11 +26,11 @@
           </ul>
         </nav>
         <div class="box2">
-          <form name="search">
-              <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
-          </form>
-          <i class="fas fa-search"></i>
-      
+            <form name="search" onsubmit="return searchFunc();">
+                <input type="text" class="input" id="gay" name="txt" onmouseout="this.value = ''; this.blur();">
+            </form>
+            <i class="fas fa-search"></i>
+        
       </div>
       </header>
       <div class="back">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, sequi odit quasi dolores ullam explicabo nostrum doloremque excepturi incidunt non culpa. Adipisci omnis sequi quas, nam odio qui veniam accusamus.
@@ -70,28 +71,29 @@
         <div class="genreee"><p style="font-size: 28px; color:rgba(53, 235, 255, 0.61); margin-left: 20px; font-family: Prompt, sans-serif; border:solid; border-top: cadetblue; border-left: none; border-right: none;">Adventure</p> </div>
     <div class="left" >
         <!-- adventure -->
-        <div class="box" style=" background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F236x%2Fd5%2F94%2F16%2Fd59416b20e75da9336500b905ccc381f.jpg%3Fnii%3Dt&f=1&nofb=1&ipt=29ba61fb6bec4b225478104f2a13714eabcc95b3e64890f10b286ff90e99ee12&ipo=images');
-        background-size: contain;"> <div class="shadow"> <div id="name">  Jojo's Bizarre Adventure </div>
-        <div style="margin-bottom: 15px; margin-left:10px;">2021</div></div></div>
+    <a href="http://127.0.0.1:5500/jojo.html">    <div class="box" style=" background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F236x%2Fd5%2F94%2F16%2Fd59416b20e75da9336500b905ccc381f.jpg%3Fnii%3Dt&f=1&nofb=1&ipt=29ba61fb6bec4b225478104f2a13714eabcc95b3e64890f10b286ff90e99ee12&ipo=images');
+        background-size: contain;" > <div class="shadow"> <div id="name">  Jojo's Bizarre Adventure </div>
+        <div style="margin-bottom: 15px; margin-left:10px;">2021</div></div></div></a>
        
             
        
-        <div class="box" style=" background-image: url('https://i.pinimg.com/originals/71/fa/77/71fa7797a69ef379730b64e72d3b2d9f.png');
+      <a href="http://127.0.0.1:5500/savpage_2.html">  <div class="box" style=" background-image: url('https://i.pinimg.com/originals/71/fa/77/71fa7797a69ef379730b64e72d3b2d9f.png');
         background-size: contain;">
         <div class="shadow"> <div >Onepiece</div>
         <div style="margin-bottom: 15px; margin-left:10px;">1999</div></div>   
             
         </div>
-        <div class="box" style="background-image:url('https://i.pinimg.com/originals/ee/30/15/ee301589ace0a61227aa485baf68c6de.jpg') ; background-size: contain;">
-            <div class="shadow"> <div >Cowboy</div>
+    </a>
+        <a href="http://127.0.0.1:5500/cowboy_bepop.html"><div class="box" style="background-image:url('https://i.pinimg.com/originals/ee/30/15/ee301589ace0a61227aa485baf68c6de.jpg') ; background-size: contain;">
+            <div class="shadow"> <div >Cowboy Bebop</div>
             <div style="margin-bottom: 15px; margin-left:10px;">1998</div></div>
             
-        </div>
-        <div class="box" style="background-image: url('https://i.pinimg.com/originals/c0/79/42/c0794288e70c329c20e63434fce2cd7a.jpg'); background-size:cover">
+        </div></a>
+        <a href="http://127.0.0.1:5500/samurai.html"><div class="box" style="background-image: url('https://i.pinimg.com/originals/c0/79/42/c0794288e70c329c20e63434fce2cd7a.jpg'); background-size:cover">
             <div class="shadow"> <div >Samurai Champloo</div>
             <div style="margin-bottom: 15px; margin-left:10px;">2005</div></div>
             
-        </div>
+        </div></a>
        
 
 
@@ -101,29 +103,29 @@
 
     <div class="left">
         <!-- horror -->
-        <div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.themoviedb.org%2Ft%2Fp%2Fw600_and_h900_bestv2%2F3IxJj1M2L2GRO0ugwXNehdlQyFz.jpg&f=1&nofb=1&ipt=f8f8bbb2d9f5784186aac5a677d31756894739a4e7095c43252bdb0703e526f9&ipo=images');
+        <a href="http://127.0.0.1:5500/hellsing.html"><div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.themoviedb.org%2Ft%2Fp%2Fw600_and_h900_bestv2%2F3IxJj1M2L2GRO0ugwXNehdlQyFz.jpg&f=1&nofb=1&ipt=f8f8bbb2d9f5784186aac5a677d31756894739a4e7095c43252bdb0703e526f9&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Hellsing</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2002</div></div>
-        </div>
-        <div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcorporate.fathomevents.com%2Fmedia%2F2979%2Fperfectblue_adtd_1000x1480.jpg%3Fanchor%3Dcenter%26mode%3Dcrop%26rnd%3D131782147980000000%26width%3D170&f=1&nofb=1&ipt=b21b03dfd0abd2d98d7c2b07f826d602b04ce07616582990ef89edac6250abf8&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/perfect_blue.html"><div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcorporate.fathomevents.com%2Fmedia%2F2979%2Fperfectblue_adtd_1000x1480.jpg%3Fanchor%3Dcenter%26mode%3Dcrop%26rnd%3D131782147980000000%26width%3D170&f=1&nofb=1&ipt=b21b03dfd0abd2d98d7c2b07f826d602b04ce07616582990ef89edac6250abf8&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Perfect Blue</div>
         <div style="margin-bottom: 15px; margin-left:10px;">1998</div></div>
             
-        </div>
-        <div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-wmisuxxvNKY%2FVDisvrAln_I%2FAAAAAAAAEkY%2FO4TbEfgw_nQ%2Fs1600%2Ftitle.jpg&f=1&nofb=1&ipt=53c3a32089327446dffb475cec9fc55f051cd917d2b55641fd40d77a6a7a913f&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/parasyte.html"><div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-wmisuxxvNKY%2FVDisvrAln_I%2FAAAAAAAAEkY%2FO4TbEfgw_nQ%2Fs1600%2Ftitle.jpg&f=1&nofb=1&ipt=53c3a32089327446dffb475cec9fc55f051cd917d2b55641fd40d77a6a7a913f&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Parasyte</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2015</div></div>
             
-        </div>
-        <div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.manga-news.com%2Fpublic%2Fimages%2Fvols%2Fanother-2-pika.jpg&f=1&nofb=1&ipt=a973f64dcd050440d930911036efa3e536dd3e43f58241865373791e84fdca1e&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/another.html"><div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.manga-news.com%2Fpublic%2Fimages%2Fvols%2Fanother-2-pika.jpg&f=1&nofb=1&ipt=a973f64dcd050440d930911036efa3e536dd3e43f58241865373791e84fdca1e&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Another</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2012</div></div>
             
-        </div>
+        </div></a>
        
 
 
@@ -133,29 +135,29 @@
 
     <div class="left">
         <!-- thriller -->
-        <div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.senscritique.com%2Fmedia%2F000017947429%2Fsource_big%2FDeath_Note.jpg&f=1&nofb=1&ipt=5a5261a7b1d193e233fa7675d5d6e7e3d620ad77c6b3a73f5fd3453fe8e6a07f&ipo=images');
+        <a href="http://127.0.0.1:5500/deathnote.html"><div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.senscritique.com%2Fmedia%2F000017947429%2Fsource_big%2FDeath_Note.jpg&f=1&nofb=1&ipt=5a5261a7b1d193e233fa7675d5d6e7e3d620ad77c6b3a73f5fd3453fe8e6a07f&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Deathnote</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2007</div></div>
-        </div>
-        <div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fsteins-gate%2Fimages%2F6%2F61%2FFRNDV.jpg&f=1&nofb=1&ipt=fc412313beed8ae30aa00fead31e4e605c65ed4db3260a677290cfdbf6f03398&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/steinsgate.html"><div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fsteins-gate%2Fimages%2F6%2F61%2FFRNDV.jpg&f=1&nofb=1&ipt=fc412313beed8ae30aa00fead31e4e605c65ed4db3260a677290cfdbf6f03398&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Steins;gate</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2015</div></div>
             
-        </div>
-        <div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.animeclick.it%2Fimages%2Fserie%2FMonster%2FMonster-cover-thumb.jpg&f=1&nofb=1&ipt=0f54df7719ae3c2cc78e9d19e32c263fb0114de5d09526a94bcdc04f90287832&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/monster.html"><div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.animeclick.it%2Fimages%2Fserie%2FMonster%2FMonster-cover-thumb.jpg&f=1&nofb=1&ipt=0f54df7719ae3c2cc78e9d19e32c263fb0114de5d09526a94bcdc04f90287832&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Monster</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2001</div></div>
             
-        </div>
-        <div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fanimeforums-uploads.s3.dualstack.eu-west-1.amazonaws.com%2Foptimized%2F3X%2F8%2F7%2F87f2cdc09dd4f9b41fec2e3ba600101c5bf0cebf_2_690x940.jpg&f=1&nofb=1&ipt=649bfe908d72977eb63c5602bddb5083398494aa4ee8d4e38e2ae3f800c6aa9f&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/terror.html"><div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fanimeforums-uploads.s3.dualstack.eu-west-1.amazonaws.com%2Foptimized%2F3X%2F8%2F7%2F87f2cdc09dd4f9b41fec2e3ba600101c5bf0cebf_2_690x940.jpg&f=1&nofb=1&ipt=649bfe908d72977eb63c5602bddb5083398494aa4ee8d4e38e2ae3f800c6aa9f&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Terror in Resonance</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2014</div></div>
             
-        </div>
+        </div></a>
        
 
 
@@ -165,29 +167,29 @@
 
     <div class="left">
         <!-- romance -->
-        <div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.animeclick.it%2Fimmagini%2Fanime%2FKaguya-sama_wa_Kokurasetai%2Fcover%2FKaguya-sama_wa_Kokurasetai-cover.jpg&f=1&nofb=1&ipt=211eccbf5977b6a024bd439936347416cf51fe17895e654c914c4a3a663ca8c3&ipo=images');
+        <a href="http://127.0.0.1:5500/kaguya.html"><div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.animeclick.it%2Fimmagini%2Fanime%2FKaguya-sama_wa_Kokurasetai%2Fcover%2FKaguya-sama_wa_Kokurasetai-cover.jpg&f=1&nofb=1&ipt=211eccbf5977b6a024bd439936347416cf51fe17895e654c914c4a3a663ca8c3&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Kaguya Sama : Love is War</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2019</div></div>
-        </div>
-        <div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rightstufanime.com%2Fimages%2FproductImages%2F9781974707188_manga-komi-cant-communicate-volume-7-primary.jpg&f=1&nofb=1&ipt=22047cc2ff187db587ee207c83d77649b15b56653df16a38b82b9a62302dd508&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/komi.html"><div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rightstufanime.com%2Fimages%2FproductImages%2F9781974707188_manga-komi-cant-communicate-volume-7-primary.jpg&f=1&nofb=1&ipt=22047cc2ff187db587ee207c83d77649b15b56653df16a38b82b9a62302dd508&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Komi can't communicate</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2021</div></div>
             
-        </div>
-        <div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F52%2Fec%2F11%2F52ec11e3ea65a4ed52db9aa67185fdca.jpg&f=1&nofb=1&ipt=c71777ed8ae4454f1c9fabc02af596dd35619607207af80654897741f4d3f9f1&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/horimiya.html"><div class="box"style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F52%2Fec%2F11%2F52ec11e3ea65a4ed52db9aa67185fdca.jpg&f=1&nofb=1&ipt=c71777ed8ae4454f1c9fabc02af596dd35619607207af80654897741f4d3f9f1&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Horimiya</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2021</div></div>
             
-        </div>
-        <div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-dI-7mhPWP58%2FT_Eeoq459gI%2FAAAAAAAAAUk%2F9O92tgZ_sAA%2Fs1600%2F1340046957113.png&f=1&nofb=1&ipt=eda9c56439c57f8c81ec52cdbb934f229eb5bc448b333f5fdea8650c23fa6b3b&ipo=images');
+        </div></a>
+        <a href="http://127.0.0.1:5500/hyouka.html"><div class="box" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-dI-7mhPWP58%2FT_Eeoq459gI%2FAAAAAAAAAUk%2F9O92tgZ_sAA%2Fs1600%2F1340046957113.png&f=1&nofb=1&ipt=eda9c56439c57f8c81ec52cdbb934f229eb5bc448b333f5fdea8650c23fa6b3b&ipo=images');
         background-size:cover">
         <div class="shadow"> <div >Hyouka</div>
         <div style="margin-bottom: 15px; margin-left:10px;">2012</div></div>   
             
-        </div>
+        </div></a>
        
 
 
@@ -197,45 +199,46 @@
 <div class="right">
     <div class="heading" style="color:white; margin-left: 50 px; margin-bottom: 20px; font-weight: bolder;"> TOP THIS WEEK</div>
 
-    <div class="small" style=" background-image:url('assets/onepiece.png');
+    <a href="http://127.0.0.1:5500/savpage_2.html"><div class="small" style=" background-image:url('onepiece.png');
 background-size: contain;">
         <div class="content_small">One piece<br> Rank: 1 </div>
-    </div>
-    <div class="small" style=" background-image:url('assets/onepiece2.png');
+    </div></a>
+    <a href="http://127.0.0.1:5500/savpage_2.html"><div class="small" style=" background-image:url('onepiece2.png');
 background-size: contain;">
         <div class="content_small">One piece (Dub)<br> Rank: 2 </div>
-    </div>
-    <div class="small" style=" background-image:url('assets/chainsawman.png');
+    </div></a>
+    <a href="http://127.0.0.1:5500/chainsawman.html"><div class="small" style=" background-image:url('chainsawman.png');
 background-size: contain;"> 
-    <div class="content_small">Chainsaw Man <br> Rank: 3 </div></div>
-    <div class="small" style=" background-image:url('assets/naruto.png');
+    <div class="content_small">Chainsaw Man <br> Rank: 3 </div></div></a>
+    <a href="http://127.0.0.1:5500/naruto.html"><div class="small" style=" background-image:url('naruto.png');
 background-size: contain;"> 
-    <div class="content_small">Naruto Shippuuden <br> Rank: 4 </div></div>
+    <div class="content_small">Naruto Shippuuden <br> Rank: 4 </div></div></a>
 
-<div class="small" style=" background-image:url('assets/bleach.png');
+<a href="http://127.0.0.1:5500/bleach.html"><div class="small" style=" background-image:url('bleach.png');
 background-size: contain;"> 
 <div class="content_small">Bleach <br> Rank: 5 </div>
-</div>
-<div class="small" style=" background-image:url('assets/bleach2.png');
+</div></a>
+<a href="http://127.0.0.1:5500/bleach.html"><div class="small" style=" background-image:url('bleach2.png');
 background-size: contain;"> 
 <div class="content_small">Bleach (Dub) <br> Rank: 6 </div>
-</div>
-<div class="small" style=" background-image:url('assets/blackclover.png');
+</div></a>
+<a href="http://127.0.0.1:5500/black_clover.html"><div class="small" style=" background-image:url('blackclover.png');
 background-size: contain;"> 
 <div class="content_small">Black Clover <br> Rank: 7 </div>
-</div>
-<div class="small" style=" background-image:url('assets/naruto2.png');
+</div></a>
+<a href="http://127.0.0.1:5500/naruto.html"><div class="small" style=" background-image:url('naruto2.png');
 background-size: contain;"> 
 <div class="content_small">Naruto <br> Rank: 8 </div>
-</div>
-<div class="small" style=" background-image:url('assets/blackclover2.png');
+</div></a>
+<a href="http://127.0.0.1:5500/black_clover.html"><div class="small" style=" background-image:url('blackclover2.png');
 background-size: contain;"> 
 <div class="content_small">Black Clover (Dub) <br> Rank: 9 </div>
-</div>
-<div class="small" style=" background-image:url('assets/dragonballz.png');
+</div></a>
+<a href="http://127.0.0.1:5500/dragon_ball_super.html"><div class="small" style=" background-image:url('dragonballz.png');
 background-size: contain;"> 
 <div class="content_small">Dragon Ball Super <br> Rank: 10 </div>
 </div>
+</a>
 </div>
 </div>
 </body>

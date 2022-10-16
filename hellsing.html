@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Episode</title>
+    <link rel="stylesheet" href="savpage_2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img
+      class="bg"
+      src="https://images3.alphacoders.com/764/thumbbig-764967.webp"
+      alt=""
+    />
+    <header id="header">
+      <img id="logo" src="aniquanchi.png" alt="" />
+      <nav id="navbar">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="">Anime</a></li>
+          <li><a href="">Recomm</a></li>
+          <li><a href="">Genre</a></li>
+          <li><a href="">Best</a></li>
+        </ul>
+      </nav>
+      <div class="box">
+        <form name="search">
+          <input
+            type="text"
+            class="input"
+            name="txt"
+            onmouseout="this.value = ''; this.blur();"
+          />
+        </form>
+        <i class="fas fa-search"></i>
+      </div>
+    </header>
+    <section id="sex">
+      <div class="movie">
+        <img id="img" alt="" />
+      </div>
+      <div class="bolo">
+        <div class="con" id="title"></div>
+        <div class="points">
+          <ul id="list">
+            <li class="oof"><button id="ep">EP 1</button></li>
+            <li class="oof">HD</li>
+            <li class="oof" id="year"></li>
+            <li class="oof" id="status"></li>
+            <li class="oof" id="totalCount"></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div id="text">
+            <div class="big-text">Aniquanchi</div>
+            <div class="tooo">Aniquanchi's server</div>
+          </div>
+          <button id="butt" onclick="location.href='video_player.html'">Watch Now!</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="foot">Episodes</div>
+      <button class="gay">EP-1</button>
+    </footer>
+    <script src="hellsing.js" ></script>
+  </body>
+</html>
